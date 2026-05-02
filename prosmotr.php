@@ -104,6 +104,7 @@ try {
 
     <div class="back-link">
         <a href="index.php">← Вернуться к форме</a>
+        <a href="admin.php"> АДМИН</a>
     </div>
 </div>
 </body>

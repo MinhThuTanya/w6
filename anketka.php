@@ -145,6 +145,7 @@
     <div class="back-link">
         <a href="registration.php">🔐 Войти (если уже есть логин/пароль)</a>
         <a href="prosmotr.php">📊 Просмотреть анкеты</a>
+        <a href="admin.php"> АДМИН</a>
     </div>
     <?php if (!$is_logged_in): ?>
         <div class="auth-hint" style="text-align:center; margin-top:20px;">
@@ -154,14 +155,20 @@
 </div>
 
 <div class="container">
-        <!-- Блок: изменение структуры БД для 5-й лабораторной -->
+        <!-- Блок: изменение структуры БД для 6-й лабораторной -->
         <div class="task" style="margin-top: 30px;">
             <h2>Изменение структуры базы данных</h2>
             <div class="screenshot">
-                <img src="iii.png" alt="ALTER TABLE application">
-                <div class="caption">Скриншот: добавление колонок login и password_hash</div>
+                <img src="1.png" alt="ALTER TABLE admin">
+                <div class="caption">Скриншот: добавление колонок login и password_hash в новую таблицу admin</div>
+            </div>
+
+            <div class="screenshot">
+                <img src="2.png" alt="INSERT TABLE admin">
+                <div class="caption">Скриншот: вставка логина и пароля в  колонки login и password_hash (в новой таблице admin)</div>
             </div>
         </div>
+        
 
 </div>
 </body>
